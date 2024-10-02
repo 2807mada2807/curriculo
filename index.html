@@ -1,0 +1,41 @@
+} <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>La Vida de [Nombre]</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>La Vida de [Nombre]</h1>
+        </header>
+        <nav>
+            <ul class="tabs">
+                <li><button class="tablink" onclick="openTab(event, 'infancia')">Infancia</button></li>
+                <li><button class="tablink" onclick="openTab(event, 'adolescencia')">Adolescencia</button></li>
+                <li><button class="tablink" onclick="openTab(event, 'adulto')">Adulto</button></li>
+            </ul>
+        </nav>
+
+        <div id="infancia" class="tabcontent">
+            <h3>Infancia</h3>
+            <p>Información sobre la infancia de [Nombre].</p>
+        </div>
+
+        <div id="adolescencia" class="tabcontent">
+            <h3>Adolescencia</h3>
+            <p>Información sobre la adolescencia de [Nombre].</p>
+        </div>
+
+        <div id="adulto" class="tabcontent">
+            <h3>Adulto</h3>
+            <p>Información sobre la vida adulta de [Nombre].</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+ 
